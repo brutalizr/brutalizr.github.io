@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="/css/hack.css" />
+    <link rel="stylesheet" href="/css/dark-grey.css" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+  
+  </head>
+
+
+  <body class="hack dark-grey">
+                
+    <div class="container">
+      
+      <header>
+        <p><a href="/">&lt Home &gt</a> // <a href="/about">&lt About &gt</a> // <a href="/dispatches">&lt Dispatches &gt</a></p>
+      </header>
+
+      <div class = "grid">
+        <div class="cell -3of12 content">
+          <span class="gdel0s">&lceil;&nbsp;BRU&nbsp;&nbsp;</span> <br>
+          <span class="gdel1s">&nbsp;&nbsp;TAL&nbsp;&nbsp;</span> <br>
+          <span class="gdel2s">&nbsp;&nbsp;IZR&nbsp;&rfloor;</span> 
+        </div>
+
+        <div class="cell -9of12 content">  
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
